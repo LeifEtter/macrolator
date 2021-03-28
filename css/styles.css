@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+body {
+  font-family: Raleway;
+}
+
+#shadow-style-1, #nutrition-information input {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#nutrition-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px;
+}
+
+#nutrition-information input {
+  margin-top: 10px;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  border: none;
+}
+
+#nutrition-information label {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

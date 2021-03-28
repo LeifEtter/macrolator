@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h1>Nutritional Information per 100g</h1>
+    <div id="nutrition-information">
+        <label for='name'>Ingredient</label>
+        <input type='text' id="name">
+        <label for="calories">Calories</label>
+        <input type="text" id="calories">
+        <label for="calories">Carbs</label>
+        <input type="text" id="carbs">
+        <label for="sugars">Sugars</label>
+        <input type="text" id="sugar">
+        <label for="sugars">Fiber</label>
+        <input type="text" id="fiber">
+        <label for="calories">Fats</label>
+        <input type="text" id="fat">
+        <label for="calories">Saturated Fats</label>
+        <input type="text" id="saturated-fat">
+        <label for="calories">Unsaturated Fats</label>
+        <input type="text" id="unsaturated-fat">
+        <label for="calories">Protein</label>
+        <input type="text" id="protein">
+    </div>
+
+    <button onmousedown="{addIngredient()}">Add Ingredient</button>
+    
+
+
+
+    <script src="../plugins/jquery/jquery.min.js"></script>
+    <script src="../plugins/popper/popper.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.5/firebase-firestore.js"></script>
+    <script src="../js/firebase.js"></script>
+</body>
+</html>
