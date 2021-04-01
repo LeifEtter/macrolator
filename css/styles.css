@@ -30,4 +30,75 @@ body {
 #nutrition-information label {
   margin-top: 20px;
 }
+
+.nav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#8f0cfe), to(#600aa7));
+  background-image: linear-gradient(to bottom right, #8f0cfe, #600aa7);
+  overflow-x: hidden;
+  padding-top: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Segoe UI";
+}
+
+.nav #selection-indicator {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+  background-color: #9B3DEB !important;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  top: 300px;
+}
+
+.nav p {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 30;
+  margin-top: 15;
+}
+
+.nav #prof-pic-holder {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-box-shadow: rgba(97, 90, 90, 0.3) 0px 3px 6px;
+          box-shadow: rgba(97, 90, 90, 0.3) 0px 3px 6px;
+  margin: 0 auto;
+}
+
+.nav .nav-button {
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none !important;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+}
 /*# sourceMappingURL=styles.css.map */
